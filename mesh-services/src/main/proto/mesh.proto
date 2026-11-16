@@ -1,0 +1,93 @@
+// mesh.proto — définition commune AutonomicMesh (IFT605/IFT713)
+//
+// Contrat partagé par les trois micro-services (Calcul, Stockage, Notification),
+// leur HealthCheck commun et un petit service d'administration servant à
+// simuler des dégradations pendant les tests.
+//
+// Après toute modification : mvn -pl mesh-services compile  (régénère les classes Java)
+
+syntax = "proto3";
+
+option java_package = "ca.usherbrooke.ift605.mesh.proto";
+option java_outer_classname = "MeshProto";
+option java_multiple_files = false;
+
+package autonomicmesh;
+
+// ─────────────────────────────── Health check universel ───────────────────────────────
+
+// État de santé d'un service, tel que vu par une sonde.
+//  - SERVING  : le service répond normalement.
+//  - DEGRADED : le service répond, mais il est surchargé ou ralenti.
+//  - DOWN     : le service est en arrêt (renvoyé pendant l'arrêt du serveur) ou
+//               injoignable (dans ce cas c'est la sonde qui produit DOWN).
+enum HealthStatus {
+    UNKNOWN  = 0;   // valeur par défaut imposée par proto3, jamais envoyée volontairement
+    SERVING  = 1;
+    DEGRADED = 2;
+    DOWN     = 3;
+}
+
+message HealthReq {
+    string serviceName = 1;          // nom attendu par la sonde (informatif)
+}
+
+message HealthResp {
+    HealthStatus status   = 1;
+    int64  uptimeMs       = 2;       // temps écoulé depuis le démarrage du processus
+    double cpuLoad        = 3;       // charge CPU du processus, entre 0.0 et 1.0
+    string serviceName    = 4;       // nom réel du service qui répond
+    int32  port           = 5;       // port d'écoute (utile si plusieurs instances)
+}
+
+// ─────────────────────────────── Service de calcul ───────────────────────────────
+
+service CalcService {
+    rpc Compute(CalcRequest) returns (CalcResponse);
+    rpc HealthCheck(HealthReq) returns (HealthResp);
+}
+
+message CalcRequest  { double a = 1; double b = 2; string op = 3; }   // op ∈ { +, -, *, / }
+message CalcResponse { double result = 1; int64 latencyMs = 2; }
+
+// ─────────────────────────────── Service de stockage ───────────────────────────────
+// Stockage clé-valeur en mémoire. Chaque écriture incrémente un numéro de version global.
+
+service StorageService {
+    rpc Put(PutRequest) returns (PutResponse);
+    rpc Get(GetRequest) returns (GetResponse);
+    rpc HealthCheck(HealthReq) returns (HealthResp);
+}
+
+message PutRequest  { string key = 1; string value = 2; }
+message PutResponse { bool stored = 1; int64 version = 2; }
+message GetRequest  { string key = 1; }
+message GetResponse { bool found = 1; string value = 2; int64 version = 3; }
+
+// ─────────────────────────────── Service de notification (pub interne) ───────────────────────────────
+
+service NotifService {
+    rpc Notify(NotifRequest) returns (NotifResponse);
+    rpc HealthCheck(HealthReq) returns (HealthResp);
+}
+
+message NotifRequest  { string event = 1; string payload = 2; }
+message NotifResponse { bool accepted = 1; int64 receivedCount = 2; }
+
+// ─────────────────────────────── Administration (tests) ───────────────────────────────
+// Hébergé par chaque processus de service. Sert uniquement à provoquer des
+// dégradations contrôlées (latence, surcharge CPU) pour tester la boucle MAPE-K.
+
+service AdminService {
+    rpc InjectFault(FaultReq) returns (FaultResp);
+}
+
+message FaultReq {
+    int64 extraLatencyMs           = 1;   // délai ajouté à chaque appel (0 = aucun)
+    optional double cpuLoadOverride = 2;  // charge CPU simulée ; absent ou < 0 = valeur réelle
+}
+
+message FaultResp {
+    bool   applied = 1;
+    string message = 2;
+}

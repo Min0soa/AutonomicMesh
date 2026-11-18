@@ -1,0 +1,675 @@
+[Executor] Demarrage de CalcService - PID : 5316
+[Executor] Demarrage de StorageService - PID : 16332
+nov. 17, 2026 6:59:07 PM ca.usherbrooke.ift605.mapek.Monitor demarrer
+INFOS: Monitor à l'écoute des sondes sur le port 9090
+[Executor] Demarrage de NotifService - PID : 10592
+[Gestionnaire] Demarrage termine
+nov. 17, 2026 6:59:07 PM ca.usherbrooke.ift605.mesh.sonde.Sonde run
+INFOS: Sonde NotifService démarrée (gRPC localhost:50053 ? Monitor localhost:9090, période 5 s)
+nov. 17, 2026 6:59:07 PM ca.usherbrooke.ift605.mesh.sonde.Sonde run
+INFOS: Sonde StorageService démarrée (gRPC localhost:50052 ? Monitor localhost:9090, période 5 s)
+nov. 17, 2026 6:59:07 PM ca.usherbrooke.ift605.mesh.sonde.Sonde run
+INFOS: Sonde CalcService démarrée (gRPC localhost:50051 ? Monitor localhost:9090, période 5 s)
+nov. 17, 2026 6:59:08 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=1044ms cpu=0.05 uptime=1s
+nov. 17, 2026 6:59:08 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=1013ms cpu=0.06 uptime=1s
+nov. 17, 2026 6:59:08 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=1035ms cpu=0.05 uptime=1s
+nov. 17, 2026 6:59:12 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=64ms cpu=0.00 uptime=5s
+nov. 17, 2026 6:59:12 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=70ms cpu=0.00 uptime=5s
+nov. 17, 2026 6:59:12 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=74ms cpu=0.00 uptime=5s
+nov. 17, 2026 6:59:17 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=61ms cpu=0.00 uptime=10s
+nov. 17, 2026 6:59:17 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=68ms cpu=0.00 uptime=10s
+nov. 17, 2026 6:59:17 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=75ms cpu=0.00 uptime=10s
+nov. 17, 2026 6:59:22 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=66ms cpu=0.00 uptime=15s
+nov. 17, 2026 6:59:22 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=70ms cpu=0.00 uptime=15s
+nov. 17, 2026 6:59:22 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=82ms cpu=0.00 uptime=15s
+nov. 17, 2026 6:59:27 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=64ms cpu=0.00 uptime=20s
+nov. 17, 2026 6:59:27 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=71ms cpu=0.00 uptime=20s
+nov. 17, 2026 6:59:27 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=76ms cpu=0.00 uptime=20s
+nov. 17, 2026 6:59:32 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=63ms cpu=0.00 uptime=25s
+nov. 17, 2026 6:59:32 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=68ms cpu=0.00 uptime=25s
+nov. 17, 2026 6:59:32 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=75ms cpu=0.00 uptime=25s
+nov. 17, 2026 6:59:37 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=65ms cpu=0.00 uptime=30s
+nov. 17, 2026 6:59:37 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=70ms cpu=0.00 uptime=30s
+nov. 17, 2026 6:59:37 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=79ms cpu=0.00 uptime=30s
+nov. 17, 2026 6:59:42 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=62ms cpu=0.00 uptime=35s
+nov. 17, 2026 6:59:42 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=66ms cpu=0.00 uptime=35s
+nov. 17, 2026 6:59:42 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=74ms cpu=0.00 uptime=35s
+nov. 17, 2026 6:59:47 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=61ms cpu=0.00 uptime=40s
+nov. 17, 2026 6:59:47 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=67ms cpu=0.00 uptime=40s
+nov. 17, 2026 6:59:47 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=78ms cpu=0.00 uptime=40s
+[Chaos] Panne injectee : StorageService - 1794959992799
+nov. 17, 2026 6:59:52 PM ca.usherbrooke.ift605.mesh.sonde.Sonde pinger
+AVERTISSEMENT: Sonde StorageService : HealthCheck en échec (UNAVAILABLE) ? DOWN
+nov. 17, 2026 6:59:52 PM ca.usherbrooke.ift605.mesh.sonde.Sonde pinger
+INFOS: Sonde StorageService : SERVING ? DOWN
+nov. 17, 2026 6:59:52 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+AVERTISSEMENT: [M] StorageService change d'état : SERVING ? DOWN
+nov. 17, 2026 6:59:52 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService DOWN latence=48ms cpu=0.00 uptime=0s
+nov. 17, 2026 6:59:52 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=90ms cpu=0.00 uptime=45s
+nov. 17, 2026 6:59:52 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=99ms cpu=0.00 uptime=45s
+[Metriques] Detection : StorageService apres 10 ms
+nov. 17, 2026 6:59:57 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService DOWN latence=8ms cpu=0.00 uptime=0s
+nov. 17, 2026 6:59:57 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=62ms cpu=0.00 uptime=50s
+nov. 17, 2026 6:59:57 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=70ms cpu=0.00 uptime=50s
+nov. 17, 2026 7:00:02 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService DOWN latence=0ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:00:02 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=55ms cpu=0.00 uptime=55s
+nov. 17, 2026 7:00:02 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=57ms cpu=0.00 uptime=55s
+nov. 17, 2026 7:00:07 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService DOWN latence=0ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:00:07 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=63ms cpu=0.00 uptime=60s
+nov. 17, 2026 7:00:07 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=70ms cpu=0.00 uptime=60s
+nov. 17, 2026 7:00:12 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService DOWN latence=0ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:00:12 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=83ms cpu=0.00 uptime=65s
+nov. 17, 2026 7:00:12 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=88ms cpu=0.00 uptime=65s
+[Executor] Relance de StorageService - Port : 50052 - Nouveau PID : 26592
+[Manuel] Redemarrage de StorageService
+nov. 17, 2026 7:00:17 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=69ms cpu=0.00 uptime=70s
+nov. 17, 2026 7:00:17 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=76ms cpu=0.00 uptime=70s
+nov. 17, 2026 7:00:18 PM ca.usherbrooke.ift605.mesh.sonde.Sonde pinger
+INFOS: Sonde StorageService : DOWN ? SERVING
+nov. 17, 2026 7:00:18 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+AVERTISSEMENT: [M] StorageService change d'état : DOWN ? SERVING
+nov. 17, 2026 7:00:18 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=473ms cpu=0.04 uptime=4s
+[Metriques] Recuperation : StorageService - MTTR : 25433 ms - Cycles observes : 0
+
+===== BILAN =====
+Mode : MANUEL SIMULE
+Pannes injectees : 1
+Pannes recuperees : 1
+Pannes sans detection : 0
+MTTR : 25.43 s
+Detection dans les 15 s : 100.00 % 
+Cycles moyens observes : 0.00
+CPU moyen : 0.33 % 
+Memoire heap moyenne : 20.04 Mio
+Faux positifs : analyse des journaux requise
+[Chaos] Panne injectee : CalcService - 1794960022788
+nov. 17, 2026 7:00:22 PM ca.usherbrooke.ift605.mesh.sonde.Sonde pinger
+AVERTISSEMENT: Sonde CalcService : HealthCheck en échec (UNAVAILABLE) ? DOWN
+nov. 17, 2026 7:00:22 PM ca.usherbrooke.ift605.mesh.sonde.Sonde pinger
+INFOS: Sonde CalcService : SERVING ? DOWN
+nov. 17, 2026 7:00:22 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+AVERTISSEMENT: [M] CalcService change d'état : SERVING ? DOWN
+nov. 17, 2026 7:00:22 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService DOWN latence=29ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:00:22 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=62ms cpu=0.00 uptime=75s
+nov. 17, 2026 7:00:22 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=64ms cpu=0.00 uptime=8s
+[Metriques] Detection : CalcService apres 8 ms
+nov. 17, 2026 7:00:27 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService DOWN latence=6ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:00:27 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=50ms cpu=0.00 uptime=80s
+nov. 17, 2026 7:00:27 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=51ms cpu=0.00 uptime=13s
+nov. 17, 2026 7:00:32 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService DOWN latence=0ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:00:32 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=51ms cpu=0.00 uptime=85s
+nov. 17, 2026 7:00:32 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=59ms cpu=0.00 uptime=18s
+nov. 17, 2026 7:00:37 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService DOWN latence=0ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:00:37 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=48ms cpu=0.00 uptime=90s
+nov. 17, 2026 7:00:37 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=51ms cpu=0.00 uptime=23s
+nov. 17, 2026 7:00:42 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService DOWN latence=0ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:00:42 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=46ms cpu=0.00 uptime=95s
+nov. 17, 2026 7:00:42 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=52ms cpu=0.00 uptime=28s
+[Executor] Relance de CalcService - Port : 50051 - Nouveau PID : 17652
+[Manuel] Redemarrage de CalcService
+nov. 17, 2026 7:00:47 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=50ms cpu=0.00 uptime=100s
+nov. 17, 2026 7:00:47 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=56ms cpu=0.00 uptime=33s
+nov. 17, 2026 7:00:48 PM ca.usherbrooke.ift605.mesh.sonde.Sonde pinger
+INFOS: Sonde CalcService : DOWN ? SERVING
+nov. 17, 2026 7:00:48 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+AVERTISSEMENT: [M] CalcService change d'état : DOWN ? SERVING
+nov. 17, 2026 7:00:48 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=486ms cpu=0.05 uptime=4s
+[Metriques] Recuperation : CalcService - MTTR : 25475 ms - Cycles observes : 0
+
+===== BILAN =====
+Mode : MANUEL SIMULE
+Pannes injectees : 2
+Pannes recuperees : 2
+Pannes sans detection : 0
+MTTR : 25.45 s
+Detection dans les 15 s : 100.00 % 
+Cycles moyens observes : 0.00
+CPU moyen : 0.29 % 
+Memoire heap moyenne : 17.99 Mio
+Faux positifs : analyse des journaux requise
+[Chaos] Panne injectee : CalcService - 1794960052785
+nov. 17, 2026 7:00:52 PM ca.usherbrooke.ift605.mesh.sonde.Sonde pinger
+AVERTISSEMENT: Sonde CalcService : HealthCheck en échec (UNAVAILABLE) ? DOWN
+nov. 17, 2026 7:00:52 PM ca.usherbrooke.ift605.mesh.sonde.Sonde pinger
+INFOS: Sonde CalcService : SERVING ? DOWN
+nov. 17, 2026 7:00:52 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+AVERTISSEMENT: [M] CalcService change d'état : SERVING ? DOWN
+nov. 17, 2026 7:00:52 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService DOWN latence=3ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:00:52 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=53ms cpu=0.00 uptime=105s
+nov. 17, 2026 7:00:52 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=61ms cpu=0.00 uptime=38s
+[Metriques] Detection : CalcService apres 4 ms
+nov. 17, 2026 7:00:57 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService DOWN latence=3ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:00:57 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=48ms cpu=0.00 uptime=110s
+nov. 17, 2026 7:00:57 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=53ms cpu=0.00 uptime=43s
+nov. 17, 2026 7:01:02 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService DOWN latence=0ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:01:02 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=42ms cpu=0.00 uptime=115s
+nov. 17, 2026 7:01:02 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=46ms cpu=0.00 uptime=48s
+nov. 17, 2026 7:01:07 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService DOWN latence=0ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:01:07 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=49ms cpu=0.00 uptime=120s
+nov. 17, 2026 7:01:07 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=54ms cpu=0.00 uptime=53s
+nov. 17, 2026 7:01:12 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService DOWN latence=0ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:01:12 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=45ms cpu=0.00 uptime=125s
+nov. 17, 2026 7:01:12 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=49ms cpu=0.00 uptime=58s
+[Executor] Relance de CalcService - Port : 50051 - Nouveau PID : 19136
+[Manuel] Redemarrage de CalcService
+nov. 17, 2026 7:01:17 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=60ms cpu=0.00 uptime=130s
+nov. 17, 2026 7:01:17 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=62ms cpu=0.00 uptime=63s
+nov. 17, 2026 7:01:18 PM ca.usherbrooke.ift605.mesh.sonde.Sonde pinger
+INFOS: Sonde CalcService : DOWN ? SERVING
+nov. 17, 2026 7:01:18 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+AVERTISSEMENT: [M] CalcService change d'état : DOWN ? SERVING
+nov. 17, 2026 7:01:18 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=485ms cpu=0.08 uptime=4s
+[Metriques] Recuperation : CalcService - MTTR : 25490 ms - Cycles observes : 0
+
+===== BILAN =====
+Mode : MANUEL SIMULE
+Pannes injectees : 3
+Pannes recuperees : 3
+Pannes sans detection : 0
+MTTR : 25.47 s
+Detection dans les 15 s : 100.00 % 
+Cycles moyens observes : 0.00
+CPU moyen : 0.28 % 
+Memoire heap moyenne : 17.62 Mio
+Faux positifs : analyse des journaux requise
+[Chaos] Panne injectee : StorageService - 1794960082771
+nov. 17, 2026 7:01:22 PM ca.usherbrooke.ift605.mesh.sonde.Sonde pinger
+AVERTISSEMENT: Sonde StorageService : HealthCheck en échec (UNAVAILABLE) ? DOWN
+nov. 17, 2026 7:01:22 PM ca.usherbrooke.ift605.mesh.sonde.Sonde pinger
+INFOS: Sonde StorageService : SERVING ? DOWN
+nov. 17, 2026 7:01:22 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+AVERTISSEMENT: [M] StorageService change d'état : SERVING ? DOWN
+nov. 17, 2026 7:01:22 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService DOWN latence=3ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:01:22 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=49ms cpu=0.00 uptime=135s
+nov. 17, 2026 7:01:22 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=46ms cpu=0.00 uptime=8s
+[Metriques] Detection : StorageService apres 12 ms
+nov. 17, 2026 7:01:27 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService DOWN latence=0ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:01:27 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=41ms cpu=0.00 uptime=140s
+nov. 17, 2026 7:01:27 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=41ms cpu=0.00 uptime=13s
+nov. 17, 2026 7:01:32 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService DOWN latence=0ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:01:32 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=60ms cpu=0.00 uptime=145s
+nov. 17, 2026 7:01:32 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=57ms cpu=0.00 uptime=18s
+nov. 17, 2026 7:01:37 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService DOWN latence=0ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:01:37 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=52ms cpu=0.00 uptime=150s
+nov. 17, 2026 7:01:37 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=47ms cpu=0.00 uptime=23s
+nov. 17, 2026 7:01:42 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService DOWN latence=0ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:01:42 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=55ms cpu=0.00 uptime=155s
+nov. 17, 2026 7:01:42 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=58ms cpu=0.00 uptime=28s
+[Executor] Relance de StorageService - Port : 50052 - Nouveau PID : 13232
+[Manuel] Redemarrage de StorageService
+nov. 17, 2026 7:01:47 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=66ms cpu=0.00 uptime=160s
+nov. 17, 2026 7:01:47 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=66ms cpu=0.00 uptime=33s
+nov. 17, 2026 7:01:48 PM ca.usherbrooke.ift605.mesh.sonde.Sonde pinger
+INFOS: Sonde StorageService : DOWN ? SERVING
+nov. 17, 2026 7:01:48 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+AVERTISSEMENT: [M] StorageService change d'état : DOWN ? SERVING
+nov. 17, 2026 7:01:48 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=465ms cpu=0.08 uptime=4s
+[Metriques] Recuperation : StorageService - MTTR : 25467 ms - Cycles observes : 0
+
+===== BILAN =====
+Mode : MANUEL SIMULE
+Pannes injectees : 4
+Pannes recuperees : 4
+Pannes sans detection : 0
+MTTR : 25.47 s
+Detection dans les 15 s : 100.00 % 
+Cycles moyens observes : 0.00
+CPU moyen : 0.26 % 
+Memoire heap moyenne : 18.01 Mio
+Faux positifs : analyse des journaux requise
+[Chaos] Panne injectee : CalcService - 1794960112772
+nov. 17, 2026 7:01:52 PM ca.usherbrooke.ift605.mesh.sonde.Sonde pinger
+AVERTISSEMENT: Sonde CalcService : HealthCheck en échec (UNAVAILABLE) ? DOWN
+nov. 17, 2026 7:01:52 PM ca.usherbrooke.ift605.mesh.sonde.Sonde pinger
+INFOS: Sonde CalcService : SERVING ? DOWN
+nov. 17, 2026 7:01:52 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+AVERTISSEMENT: [M] CalcService change d'état : SERVING ? DOWN
+nov. 17, 2026 7:01:52 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService DOWN latence=3ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:01:52 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=48ms cpu=0.00 uptime=165s
+nov. 17, 2026 7:01:52 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=53ms cpu=0.00 uptime=8s
+[Metriques] Detection : CalcService apres 33 ms
+nov. 17, 2026 7:01:57 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService DOWN latence=0ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:01:57 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=50ms cpu=0.00 uptime=170s
+nov. 17, 2026 7:01:57 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=54ms cpu=0.00 uptime=13s
+nov. 17, 2026 7:02:02 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService DOWN latence=0ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:02:02 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=47ms cpu=0.00 uptime=175s
+nov. 17, 2026 7:02:02 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=52ms cpu=0.00 uptime=18s
+nov. 17, 2026 7:02:07 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService DOWN latence=0ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:02:07 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=50ms cpu=0.00 uptime=180s
+nov. 17, 2026 7:02:07 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=55ms cpu=0.00 uptime=23s
+nov. 17, 2026 7:02:12 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService DOWN latence=0ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:02:12 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=48ms cpu=0.00 uptime=185s
+nov. 17, 2026 7:02:12 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=49ms cpu=0.00 uptime=28s
+[Executor] Relance de CalcService - Port : 50051 - Nouveau PID : 20140
+[Manuel] Redemarrage de CalcService
+nov. 17, 2026 7:02:17 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=65ms cpu=0.00 uptime=190s
+nov. 17, 2026 7:02:17 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=70ms cpu=0.00 uptime=33s
+nov. 17, 2026 7:02:18 PM ca.usherbrooke.ift605.mesh.sonde.Sonde pinger
+INFOS: Sonde CalcService : DOWN ? SERVING
+nov. 17, 2026 7:02:18 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+AVERTISSEMENT: [M] CalcService change d'état : DOWN ? SERVING
+nov. 17, 2026 7:02:18 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=484ms cpu=0.05 uptime=4s
+[Metriques] Recuperation : CalcService - MTTR : 25488 ms - Cycles observes : 0
+
+===== BILAN =====
+Mode : MANUEL SIMULE
+Pannes injectees : 5
+Pannes recuperees : 5
+Pannes sans detection : 0
+MTTR : 25.47 s
+Detection dans les 15 s : 100.00 % 
+Cycles moyens observes : 0.00
+CPU moyen : 0.25 % 
+Memoire heap moyenne : 18.72 Mio
+Faux positifs : analyse des journaux requise
+[Chaos] Panne injectee : NotifService - 1794960142777
+nov. 17, 2026 7:02:22 PM ca.usherbrooke.ift605.mesh.sonde.Sonde pinger
+AVERTISSEMENT: Sonde NotifService : HealthCheck en échec (UNAVAILABLE) ? DOWN
+nov. 17, 2026 7:02:22 PM ca.usherbrooke.ift605.mesh.sonde.Sonde pinger
+INFOS: Sonde NotifService : SERVING ? DOWN
+nov. 17, 2026 7:02:22 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+AVERTISSEMENT: [M] NotifService change d'état : SERVING ? DOWN
+nov. 17, 2026 7:02:22 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService DOWN latence=3ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:02:22 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=46ms cpu=0.00 uptime=38s
+nov. 17, 2026 7:02:22 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=45ms cpu=0.00 uptime=8s
+[Metriques] Detection : NotifService apres 15 ms
+nov. 17, 2026 7:02:27 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService DOWN latence=0ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:02:27 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=46ms cpu=0.00 uptime=43s
+nov. 17, 2026 7:02:27 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=46ms cpu=0.00 uptime=13s
+nov. 17, 2026 7:02:32 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService DOWN latence=0ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:02:32 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=46ms cpu=0.00 uptime=48s
+nov. 17, 2026 7:02:32 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=43ms cpu=0.00 uptime=18s
+nov. 17, 2026 7:02:37 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService DOWN latence=0ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:02:37 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=56ms cpu=0.00 uptime=53s
+nov. 17, 2026 7:02:37 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=54ms cpu=0.00 uptime=23s
+nov. 17, 2026 7:02:42 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService DOWN latence=1ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:02:42 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=48ms cpu=0.00 uptime=58s
+nov. 17, 2026 7:02:42 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=43ms cpu=0.00 uptime=28s
+[Executor] Relance de NotifService - Port : 50053 - Nouveau PID : 26404
+[Manuel] Redemarrage de NotifService
+nov. 17, 2026 7:02:47 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=54ms cpu=0.00 uptime=63s
+nov. 17, 2026 7:02:47 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=55ms cpu=0.00 uptime=33s
+nov. 17, 2026 7:02:48 PM ca.usherbrooke.ift605.mesh.sonde.Sonde pinger
+INFOS: Sonde NotifService : DOWN ? SERVING
+nov. 17, 2026 7:02:48 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+AVERTISSEMENT: [M] NotifService change d'état : DOWN ? SERVING
+nov. 17, 2026 7:02:48 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=520ms cpu=0.04 uptime=4s
+nov. 17, 2026 7:02:52 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=62ms cpu=0.00 uptime=68s
+nov. 17, 2026 7:02:52 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=80ms cpu=0.00 uptime=8s
+nov. 17, 2026 7:02:52 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=65ms cpu=0.00 uptime=38s
+[Metriques] Recuperation : NotifService - MTTR : 30086 ms - Cycles observes : 0
+
+===== BILAN =====
+Mode : MANUEL SIMULE
+Pannes injectees : 6
+Pannes recuperees : 6
+Pannes sans detection : 0
+MTTR : 26.24 s
+Detection dans les 15 s : 100.00 % 
+Cycles moyens observes : 0.00
+CPU moyen : 0.25 % 
+Memoire heap moyenne : 19.82 Mio
+Faux positifs : analyse des journaux requise
+nov. 17, 2026 7:02:57 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=53ms cpu=0.00 uptime=73s
+nov. 17, 2026 7:02:57 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=69ms cpu=0.00 uptime=13s
+nov. 17, 2026 7:02:57 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=55ms cpu=0.00 uptime=43s
+nov. 17, 2026 7:03:02 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=105ms cpu=0.00 uptime=78s
+nov. 17, 2026 7:03:02 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=136ms cpu=0.00 uptime=18s
+nov. 17, 2026 7:03:02 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=125ms cpu=0.00 uptime=48s
+nov. 17, 2026 7:03:07 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=65ms cpu=0.00 uptime=83s
+nov. 17, 2026 7:03:07 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=80ms cpu=0.00 uptime=23s
+nov. 17, 2026 7:03:07 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=68ms cpu=0.00 uptime=53s
+nov. 17, 2026 7:03:12 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=61ms cpu=0.00 uptime=88s
+nov. 17, 2026 7:03:12 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=78ms cpu=0.00 uptime=28s
+nov. 17, 2026 7:03:12 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=65ms cpu=0.00 uptime=58s
+nov. 17, 2026 7:03:17 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=62ms cpu=0.00 uptime=93s
+nov. 17, 2026 7:03:17 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=80ms cpu=0.00 uptime=33s
+nov. 17, 2026 7:03:17 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=63ms cpu=0.00 uptime=63s
+[Chaos] Panne injectee : StorageService - 1794960202777
+nov. 17, 2026 7:03:22 PM ca.usherbrooke.ift605.mesh.sonde.Sonde pinger
+AVERTISSEMENT: Sonde StorageService : HealthCheck en échec (UNAVAILABLE) ? DOWN
+nov. 17, 2026 7:03:22 PM ca.usherbrooke.ift605.mesh.sonde.Sonde pinger
+INFOS: Sonde StorageService : SERVING ? DOWN
+nov. 17, 2026 7:03:22 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+AVERTISSEMENT: [M] StorageService change d'état : SERVING ? DOWN
+nov. 17, 2026 7:03:22 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService DOWN latence=3ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:03:22 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=61ms cpu=0.00 uptime=38s
+nov. 17, 2026 7:03:22 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=46ms cpu=0.00 uptime=68s
+[Metriques] Detection : StorageService apres 36 ms
+nov. 17, 2026 7:03:27 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService DOWN latence=0ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:03:27 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=57ms cpu=0.00 uptime=43s
+nov. 17, 2026 7:03:27 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=45ms cpu=0.00 uptime=73s
+nov. 17, 2026 7:03:32 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService DOWN latence=0ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:03:32 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=69ms cpu=0.00 uptime=48s
+nov. 17, 2026 7:03:32 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=61ms cpu=0.00 uptime=78s
+nov. 17, 2026 7:03:37 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService DOWN latence=1ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:03:37 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=112ms cpu=0.00 uptime=53s
+nov. 17, 2026 7:03:37 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=99ms cpu=0.00 uptime=83s
+nov. 17, 2026 7:03:42 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService DOWN latence=0ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:03:42 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=71ms cpu=0.00 uptime=58s
+nov. 17, 2026 7:03:42 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=55ms cpu=0.00 uptime=88s
+[Executor] Relance de StorageService - Port : 50052 - Nouveau PID : 12532
+[Manuel] Redemarrage de StorageService
+nov. 17, 2026 7:03:47 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=95ms cpu=0.00 uptime=63s
+nov. 17, 2026 7:03:47 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=87ms cpu=0.00 uptime=93s
+nov. 17, 2026 7:03:48 PM ca.usherbrooke.ift605.mesh.sonde.Sonde pinger
+INFOS: Sonde StorageService : DOWN ? SERVING
+nov. 17, 2026 7:03:48 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+AVERTISSEMENT: [M] StorageService change d'état : DOWN ? SERVING
+nov. 17, 2026 7:03:48 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=762ms cpu=0.06 uptime=4s
+nov. 17, 2026 7:03:52 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=85ms cpu=0.00 uptime=68s
+nov. 17, 2026 7:03:52 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=67ms cpu=0.00 uptime=98s
+nov. 17, 2026 7:03:52 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=91ms cpu=0.00 uptime=8s
+[Metriques] Recuperation : StorageService - MTTR : 30094 ms - Cycles observes : 0
+
+===== BILAN =====
+Mode : MANUEL SIMULE
+Pannes injectees : 7
+Pannes recuperees : 7
+Pannes sans detection : 0
+MTTR : 26.79 s
+Detection dans les 15 s : 100.00 % 
+Cycles moyens observes : 0.00
+CPU moyen : 0.24 % 
+Memoire heap moyenne : 21.74 Mio
+Faux positifs : analyse des journaux requise
+nov. 17, 2026 7:03:57 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=95ms cpu=0.00 uptime=73s
+nov. 17, 2026 7:03:57 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=77ms cpu=0.00 uptime=103s
+nov. 17, 2026 7:03:57 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=93ms cpu=0.00 uptime=13s
+nov. 17, 2026 7:04:02 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=82ms cpu=0.00 uptime=78s
+nov. 17, 2026 7:04:02 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=67ms cpu=0.00 uptime=108s
+nov. 17, 2026 7:04:02 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=86ms cpu=0.00 uptime=18s
+nov. 17, 2026 7:04:07 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=90ms cpu=0.00 uptime=83s
+nov. 17, 2026 7:04:07 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=76ms cpu=0.00 uptime=113s
+nov. 17, 2026 7:04:07 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=94ms cpu=0.00 uptime=23s
+nov. 17, 2026 7:04:12 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=88ms cpu=0.00 uptime=88s
+nov. 17, 2026 7:04:12 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=68ms cpu=0.00 uptime=118s
+nov. 17, 2026 7:04:12 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=100ms cpu=0.00 uptime=28s
+nov. 17, 2026 7:04:17 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=87ms cpu=0.00 uptime=93s
+nov. 17, 2026 7:04:17 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=75ms cpu=0.00 uptime=123s
+nov. 17, 2026 7:04:17 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=95ms cpu=0.00 uptime=33s
+[Chaos] Panne injectee : StorageService - 1794960262780
+nov. 17, 2026 7:04:22 PM ca.usherbrooke.ift605.mesh.sonde.Sonde pinger
+AVERTISSEMENT: Sonde StorageService : HealthCheck en échec (UNAVAILABLE) ? DOWN
+nov. 17, 2026 7:04:22 PM ca.usherbrooke.ift605.mesh.sonde.Sonde pinger
+INFOS: Sonde StorageService : SERVING ? DOWN
+nov. 17, 2026 7:04:22 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+AVERTISSEMENT: [M] StorageService change d'état : SERVING ? DOWN
+nov. 17, 2026 7:04:22 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService DOWN latence=3ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:04:22 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=69ms cpu=0.00 uptime=98s
+nov. 17, 2026 7:04:22 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=54ms cpu=0.00 uptime=128s
+[Metriques] Detection : StorageService apres 44 ms
+nov. 17, 2026 7:04:27 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService DOWN latence=0ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:04:27 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=87ms cpu=0.00 uptime=103s
+nov. 17, 2026 7:04:27 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=72ms cpu=0.00 uptime=133s
+nov. 17, 2026 7:04:32 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService DOWN latence=0ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:04:32 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=91ms cpu=0.00 uptime=108s
+nov. 17, 2026 7:04:32 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=74ms cpu=0.00 uptime=139s
+nov. 17, 2026 7:04:37 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService DOWN latence=0ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:04:37 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=84ms cpu=0.00 uptime=113s
+nov. 17, 2026 7:04:37 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=74ms cpu=0.00 uptime=143s
+nov. 17, 2026 7:04:42 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService DOWN latence=0ms cpu=0.00 uptime=0s
+nov. 17, 2026 7:04:42 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=69ms cpu=0.00 uptime=118s
+nov. 17, 2026 7:04:42 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=58ms cpu=0.00 uptime=148s
+[Executor] Relance de StorageService - Port : 50052 - Nouveau PID : 14820
+[Manuel] Redemarrage de StorageService
+nov. 17, 2026 7:04:47 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=118ms cpu=0.00 uptime=123s
+nov. 17, 2026 7:04:47 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=102ms cpu=0.00 uptime=154s
+nov. 17, 2026 7:04:49 PM ca.usherbrooke.ift605.mesh.sonde.Sonde pinger
+INFOS: Sonde StorageService : DOWN ? SERVING
+nov. 17, 2026 7:04:49 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+AVERTISSEMENT: [M] StorageService change d'état : DOWN ? SERVING
+nov. 17, 2026 7:04:49 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=1408ms cpu=0.05 uptime=5s
+nov. 17, 2026 7:04:52 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=125ms cpu=0.00 uptime=128s
+nov. 17, 2026 7:04:52 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=117ms cpu=0.00 uptime=159s
+nov. 17, 2026 7:04:52 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=140ms cpu=0.00 uptime=8s
+[Metriques] Recuperation : StorageService - MTTR : 30142 ms - Cycles observes : 0
+
+===== BILAN =====
+Mode : MANUEL SIMULE
+Pannes injectees : 8
+Pannes recuperees : 8
+Pannes sans detection : 0
+MTTR : 27.21 s
+Detection dans les 15 s : 100.00 % 
+Cycles moyens observes : 0.00
+CPU moyen : 0.25 % 
+Memoire heap moyenne : 23.63 Mio
+Faux positifs : analyse des journaux requise
+nov. 17, 2026 7:04:57 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=85ms cpu=0.00 uptime=133s
+nov. 17, 2026 7:04:57 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=89ms cpu=0.00 uptime=13s
+nov. 17, 2026 7:04:57 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=72ms cpu=0.00 uptime=163s
+nov. 17, 2026 7:05:02 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : NotifService SERVING latence=89ms cpu=0.00 uptime=138s
+nov. 17, 2026 7:05:02 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : CalcService SERVING latence=74ms cpu=0.00 uptime=168s
+nov. 17, 2026 7:05:02 PM ca.usherbrooke.ift605.mapek.Monitor traiterLigne
+INFOS: [M] Mesure reçue : StorageService SERVING latence=97ms cpu=0.00 uptime=18s
+
+===== BILAN =====
+Mode : MANUEL SIMULE
+Pannes injectees : 8
+Pannes recuperees : 8
+Pannes sans detection : 0
+MTTR : 27.21 s
+Detection dans les 15 s : 100.00 % 
+Cycles moyens observes : 0.00
+CPU moyen : 0.25 % 
+Memoire heap moyenne : 24.08 Mio
+Faux positifs : analyse des journaux requise
+[Gestionnaire] Arret termine
+nov. 17, 2026 7:05:07 PM ca.usherbrooke.ift605.mapek.Monitor demarrer
+INFOS: Monitor arrêté
